@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "version": 1,
+    "scenario": "medium",
+    "description": "中等负载：论文/课程设计常用规模",
+    "n_tasks": 10,
+    "seed": 49,
+    "start_date": "2026-04-06",
+    "planning_days": 7,
+    "multi_day_mode": true,
+    "generated_at": "2026-05-24 15:02:42"
+  },
+  "tasks": [
+    {
+      "name": "writing_0",
+      "duration": 3.0,
+      "task_type": "writing",
+      "deadline": "2026-04-11 19:10",
+      "priority": 1.484
+    },
+    {
+      "name": "learning_1",
+      "duration": 0.5,
+      "task_type": "learning",
+      "deadline": "2026-04-09 17:51",
+      "priority": 0.667
+    },
+    {
+      "name": "meeting_2",
+      "duration": 1.0,
+      "task_type": "meeting",
+      "deadline": "2026-04-13 16:17",
+      "priority": 1.578
+    },
+    {
+      "name": "review_3",
+      "duration": 3.0,
+      "task_type": "review",
+      "deadline": "2026-04-12 13:37",
+      "priority": 1.685
+    },
+    {
+      "name": "coding_4",
+      "duration": 2.5,
+      "task_type": "coding",
+      "deadline": "2026-04-07 16:31",
+      "priority": 0.549
+    },
+    {
+      "name": "review_5",
+      "duration": 0.5,
+      "task_type": "review",
+      "deadline": "2026-04-09 22:01",
+      "priority": 1.521
+    },
+    {
+      "name": "learning_6",
+      "duration": 1.5,
+      "task_type": "learning",
+      "deadline": "2026-04-09 12:19",
+      "priority": 1.354
+    },
+    {
+      "name": "writing_7",
+      "duration": 0.5,
+      "task_type": "writing",
+      "deadline": "2026-04-09 15:00",
+      "priority": 1.824
+    },
+    {
+      "name": "admin_8",
+      "duration": 1.0,
+      "task_type": "admin",
+      "deadline": "2026-04-10 16:53",
+      "priority": 1.526
+    },
+    {
+      "name": "meeting_9",
+      "duration": 1.0,
+      "task_type": "meeting",
+      "deadline": "2026-04-11 14:21",
+      "priority": 1.329
+    }
+  ]
+}

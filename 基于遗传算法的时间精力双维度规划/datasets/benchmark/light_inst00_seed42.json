@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "version": 1,
+    "scenario": "light",
+    "description": "轻负载：任务少、截止宽松，适合验证可行性",
+    "n_tasks": 6,
+    "seed": 42,
+    "start_date": "2026-04-06",
+    "planning_days": 7,
+    "multi_day_mode": true,
+    "generated_at": "2026-05-24 15:02:42"
+  },
+  "tasks": [
+    {
+      "name": "admin_0",
+      "duration": 2.0,
+      "task_type": "admin",
+      "deadline": "2026-04-11 21:29",
+      "priority": 0.594
+    },
+    {
+      "name": "learning_1",
+      "duration": 3.0,
+      "task_type": "learning",
+      "deadline": "2026-04-12 18:38",
+      "priority": 0.95
+    },
+    {
+      "name": "admin_2",
+      "duration": 2.0,
+      "task_type": "admin",
+      "deadline": "2026-04-10 21:13",
+      "priority": 1.323
+    },
+    {
+      "name": "learning_3",
+      "duration": 1.5,
+      "task_type": "learning",
+      "deadline": "2026-04-09 18:19",
+      "priority": 1.328
+    },
+    {
+      "name": "learning_4",
+      "duration": 1.0,
+      "task_type": "learning",
+      "deadline": "2026-04-12 19:46",
+      "priority": 1.471
+    },
+    {
+      "name": "writing_5",
+      "duration": 3.0,
+      "task_type": "writing",
+      "deadline": "2026-04-12 20:20",
+      "priority": 0.544
+    }
+  ]
+}

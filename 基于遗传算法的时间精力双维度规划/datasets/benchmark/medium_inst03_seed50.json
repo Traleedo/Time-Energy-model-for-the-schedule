@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "version": 1,
+    "scenario": "medium",
+    "description": "中等负载：论文/课程设计常用规模",
+    "n_tasks": 14,
+    "seed": 50,
+    "start_date": "2026-04-06",
+    "planning_days": 7,
+    "multi_day_mode": true,
+    "generated_at": "2026-05-24 15:02:42"
+  },
+  "tasks": [
+    {
+      "name": "admin_0",
+      "duration": 2.5,
+      "task_type": "admin",
+      "deadline": "2026-04-12 23:12",
+      "priority": 0.855
+    },
+    {
+      "name": "review_1",
+      "duration": 2.0,
+      "task_type": "review",
+      "deadline": "2026-04-09 14:19",
+      "priority": 0.899
+    },
+    {
+      "name": "learning_2",
+      "duration": 2.5,
+      "task_type": "learning",
+      "deadline": "2026-04-13 15:47",
+      "priority": 0.688
+    },
+    {
+      "name": "meeting_3",
+      "duration": 0.5,
+      "task_type": "meeting",
+      "deadline": "2026-04-10 22:16",
+      "priority": 0.523
+    },
+    {
+      "name": "learning_4",
+      "duration": 2.5,
+      "task_type": "learning",
+      "deadline": "2026-04-11 16:18",
+      "priority": 1.56
+    },
+    {
+      "name": "review_5",
+      "duration": 0.5,
+      "task_type": "review",
+      "deadline": "2026-04-09 14:35",
+      "priority": 0.998
+    },
+    {
+      "name": "review_6",
+      "duration": 1.5,
+      "task_type": "review",
+      "deadline": "2026-04-12 20:58",
+      "priority": 0.687
+    },
+    {
+      "name": "writing_7",
+      "duration": 2.0,
+      "task_type": "writing",
+      "deadline": "2026-04-11 12:25",
+      "priority": 0.765
+    },
+    {
+      "name": "admin_8",
+      "duration": 2.0,
+      "task_type": "admin",
+      "deadline": "2026-04-08 14:36",
+      "priority": 1.841
+    },
+    {
+      "name": "coding_9",
+      "duration": 3.0,
+      "task_type": "coding",
+      "deadline": "2026-04-07 17:21",
+      "priority": 1.024
+    },
+    {
+      "name": "learning_10",
+      "duration": 3.0,
+      "task_type": "learning",
+      "deadline": "2026-04-10 21:15",
+      "priority": 1.159
+    },
+    {
+      "name": "learning_11",
+      "duration": 3.0,
+      "task_type": "learning",
+      "deadline": "2026-04-08 14:25",
+      "priority": 1.448
+    },
+    {
+      "name": "writing_12",
+      "duration": 2.0,
+      "task_type": "writing",
+      "deadline": "2026-04-07 16:56",
+      "priority": 1.268
+    },
+    {
+      "name": "admin_13",
+      "duration": 1.0,
+      "task_type": "admin",
+      "deadline": "2026-04-08 12:18",
+      "priority": 0.799
+    }
+  ]
+}

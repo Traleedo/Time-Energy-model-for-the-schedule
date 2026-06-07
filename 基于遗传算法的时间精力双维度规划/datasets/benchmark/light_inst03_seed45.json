@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "version": 1,
+    "scenario": "light",
+    "description": "轻负载：任务少、截止宽松，适合验证可行性",
+    "n_tasks": 10,
+    "seed": 45,
+    "start_date": "2026-04-06",
+    "planning_days": 7,
+    "multi_day_mode": true,
+    "generated_at": "2026-05-24 15:02:42"
+  },
+  "tasks": [
+    {
+      "name": "learning_0",
+      "duration": 2.5,
+      "task_type": "learning",
+      "deadline": "2026-04-11 22:04",
+      "priority": 1.01
+    },
+    {
+      "name": "writing_1",
+      "duration": 2.5,
+      "task_type": "writing",
+      "deadline": "2026-04-12 20:03",
+      "priority": 1.171
+    },
+    {
+      "name": "learning_2",
+      "duration": 2.0,
+      "task_type": "learning",
+      "deadline": "2026-04-12 21:37",
+      "priority": 1.029
+    },
+    {
+      "name": "learning_3",
+      "duration": 3.0,
+      "task_type": "learning",
+      "deadline": "2026-04-11 22:20",
+      "priority": 1.13
+    },
+    {
+      "name": "admin_4",
+      "duration": 3.0,
+      "task_type": "admin",
+      "deadline": "2026-04-06 18:18",
+      "priority": 1.202
+    },
+    {
+      "name": "writing_5",
+      "duration": 0.5,
+      "task_type": "writing",
+      "deadline": "2026-04-13 19:51",
+      "priority": 0.654
+    },
+    {
+      "name": "writing_6",
+      "duration": 2.0,
+      "task_type": "writing",
+      "deadline": "2026-04-09 21:53",
+      "priority": 0.675
+    },
+    {
+      "name": "review_7",
+      "duration": 2.5,
+      "task_type": "review",
+      "deadline": "2026-04-11 22:48",
+      "priority": 0.873
+    },
+    {
+      "name": "learning_8",
+      "duration": 1.0,
+      "task_type": "learning",
+      "deadline": "2026-04-09 19:01",
+      "priority": 0.624
+    },
+    {
+      "name": "review_9",
+      "duration": 3.0,
+      "task_type": "review",
+      "deadline": "2026-04-13 19:03",
+      "priority": 0.514
+    }
+  ]
+}

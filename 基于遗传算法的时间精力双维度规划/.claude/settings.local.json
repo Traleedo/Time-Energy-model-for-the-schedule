@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python optimized_main.py)",
+      "Bash(python scripts/valid.py --mode slot --algorithms SLOT-GA,EDF,HERF,SLOT-RS,WSPT --fast --limit 3 --runs 1 --workers 8)"
+    ]
+  }
+}

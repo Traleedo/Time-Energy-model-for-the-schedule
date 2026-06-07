@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "version": 1,
+    "scenario": "light",
+    "description": "轻负载：任务少、截止宽松，适合验证可行性",
+    "n_tasks": 8,
+    "seed": 46,
+    "start_date": "2026-04-06",
+    "planning_days": 7,
+    "multi_day_mode": true,
+    "generated_at": "2026-05-24 15:02:42"
+  },
+  "tasks": [
+    {
+      "name": "meeting_0",
+      "duration": 1.0,
+      "task_type": "meeting",
+      "deadline": "2026-04-09 21:07",
+      "priority": 1.434
+    },
+    {
+      "name": "admin_1",
+      "duration": 0.5,
+      "task_type": "admin",
+      "deadline": "2026-04-13 20:33",
+      "priority": 1.249
+    },
+    {
+      "name": "admin_2",
+      "duration": 2.5,
+      "task_type": "admin",
+      "deadline": "2026-04-13 21:58",
+      "priority": 0.555
+    },
+    {
+      "name": "learning_3",
+      "duration": 2.5,
+      "task_type": "learning",
+      "deadline": "2026-04-12 18:32",
+      "priority": 0.89
+    },
+    {
+      "name": "coding_4",
+      "duration": 1.0,
+      "task_type": "coding",
+      "deadline": "2026-04-10 22:13",
+      "priority": 0.507
+    },
+    {
+      "name": "review_5",
+      "duration": 1.0,
+      "task_type": "review",
+      "deadline": "2026-04-12 20:30",
+      "priority": 1.181
+    },
+    {
+      "name": "writing_6",
+      "duration": 1.0,
+      "task_type": "writing",
+      "deadline": "2026-04-09 21:16",
+      "priority": 1.4
+    },
+    {
+      "name": "admin_7",
+      "duration": 2.0,
+      "task_type": "admin",
+      "deadline": "2026-04-13 21:36",
+      "priority": 0.543
+    }
+  ]
+}

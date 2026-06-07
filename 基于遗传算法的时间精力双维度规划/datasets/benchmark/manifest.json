@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "instances": [
+    {
+      "file": "light_inst00_seed42.json",
+      "scenario": "light",
+      "seed": 42,
+      "n_tasks": 6
+    },
+    {
+      "file": "light_inst01_seed43.json",
+      "scenario": "light",
+      "seed": 43,
+      "n_tasks": 8
+    },
+    {
+      "file": "light_inst02_seed44.json",
+      "scenario": "light",
+      "seed": 44,
+      "n_tasks": 9
+    },
+    {
+      "file": "light_inst03_seed45.json",
+      "scenario": "light",
+      "seed": 45,
+      "n_tasks": 10
+    },
+    {
+      "file": "light_inst04_seed46.json",
+      "scenario": "light",
+      "seed": 46,
+      "n_tasks": 8
+    },
+    {
+      "file": "medium_inst00_seed47.json",
+      "scenario": "medium",
+      "seed": 47,
+      "n_tasks": 10
+    },
+    {
+      "file": "medium_inst01_seed48.json",
+      "scenario": "medium",
+      "seed": 48,
+      "n_tasks": 10
+    },
+    {
+      "file": "medium_inst02_seed49.json",
+      "scenario": "medium",
+      "seed": 49,
+      "n_tasks": 10
+    },
+    {
+      "file": "medium_inst03_seed50.json",
+      "scenario": "medium",
+      "seed": 50,
+      "n_tasks": 14
+    },
+    {
+      "file": "medium_inst04_seed51.json",
+      "scenario": "medium",
+      "seed": 51,
+      "n_tasks": 12
+    },
+    {
+      "file": "heavy_inst00_seed52.json",
+      "scenario": "heavy",
+      "seed": 52,
+      "n_tasks": 22
+    },
+    {
+      "file": "heavy_inst01_seed53.json",
+      "scenario": "heavy",
+      "seed": 53,
+      "n_tasks": 21
+    },
+    {
+      "file": "heavy_inst02_seed54.json",
+      "scenario": "heavy",
+      "seed": 54,
+      "n_tasks": 17
+    },
+    {
+      "file": "heavy_inst03_seed55.json",
+      "scenario": "heavy",
+      "seed": 55,
+      "n_tasks": 22
+    },
+    {
+      "file": "heavy_inst04_seed56.json",
+      "scenario": "heavy",
+      "seed": 56,
+      "n_tasks": 17
+    }
+  ]
+}

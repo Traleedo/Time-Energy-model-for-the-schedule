@@ -9,6 +9,7 @@ from core.task import Task
 from core.slot_scheduler import SlotScheduler
 from core.slot_ga_solver import SlotGA
 from core.visualization import plot_schedule
+from solvers.slot_sa import SlotSA
 
 
 if __name__ == "__main__":
@@ -22,13 +23,12 @@ if __name__ == "__main__":
 
     cfg = {k: getattr(CONFIG, k) for k in dir(CONFIG) if k.isupper()}
     scheduler = SlotScheduler(tasks, EnergyCurve(), cfg)
-    ga = SlotGA(scheduler, config=cfg)
+    ga = SlotSA(scheduler, config=cfg)
     best, history = ga.run(verbose=True)
 
     metrics = scheduler.evaluate_slots(best)
     print(f"fitness={metrics['fitness']:.1f} energy={metrics['energy_match']:.3f} "
-          f"on_time={metrics['on_time_rate']:.3f} composite={metrics['composite']:.3f}")
-
+          f"on_time={metrics['on_time_rate']:.3f} composite={metrics['composite']:.3f}")    
     for item in sorted(scheduler.assign(best), key=lambda x: x["start"]):
         t = item["task"]
         s, e = item["start"], item["end"]

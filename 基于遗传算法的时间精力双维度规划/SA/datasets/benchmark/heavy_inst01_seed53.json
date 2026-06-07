@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "version": 1,
+    "scenario": "heavy",
+    "description": "重负载：任务多、截止紧，考验逾期与过载惩罚",
+    "n_tasks": 21,
+    "seed": 53,
+    "start_date": "2026-04-06",
+    "planning_days": 7,
+    "multi_day_mode": true,
+    "generated_at": "2026-05-24 15:02:42"
+  },
+  "tasks": [
+    {
+      "name": "coding_0",
+      "duration": 2.5,
+      "task_type": "coding",
+      "deadline": "2026-04-08 15:36",
+      "priority": 0.978
+    },
+    {
+      "name": "coding_1",
+      "duration": 2.0,
+      "task_type": "coding",
+      "deadline": "2026-04-07 21:59",
+      "priority": 2.107
+    },
+    {
+      "name": "admin_2",
+      "duration": 2.0,
+      "task_type": "admin",
+      "deadline": "2026-04-06 13:36",
+      "priority": 1.87
+    },
+    {
+      "name": "writing_3",
+      "duration": 1.0,
+      "task_type": "writing",
+      "deadline": "2026-04-11 18:27",
+      "priority": 0.936
+    },
+    {
+      "name": "meeting_4",
+      "duration": 1.0,
+      "task_type": "meeting",
+      "deadline": "2026-04-08 10:29",
+      "priority": 0.835
+    },
+    {
+      "name": "learning_5",
+      "duration": 2.5,
+      "task_type": "learning",
+      "deadline": "2026-04-09 16:02",
+      "priority": 2.312
+    },
+    {
+      "name": "admin_6",
+      "duration": 0.5,
+      "task_type": "admin",
+      "deadline": "2026-04-08 10:39",
+      "priority": 2.352
+    },
+    {
+      "name": "learning_7",
+      "duration": 1.5,
+      "task_type": "learning",
+      "deadline": "2026-04-08 10:32",
+      "priority": 2.203
+    },
+    {
+      "name": "admin_8",
+      "duration": 2.5,
+      "task_type": "admin",
+      "deadline": "2026-04-07 14:01",
+      "priority": 1.837
+    },
+    {
+      "name": "admin_9",
+      "duration": 2.0,
+      "task_type": "admin",
+      "deadline": "2026-04-07 10:26",
+      "priority": 2.327
+    },
+    {
+      "name": "coding_10",
+      "duration": 2.0,
+      "task_type": "coding",
+      "deadline": "2026-04-09 19:23",
+      "priority": 1.913
+    },
+    {
+      "name": "learning_11",
+      "duration": 2.0,
+      "task_type": "learning",
+      "deadline": "2026-04-08 21:46",
+      "priority": 1.672
+    },
+    {
+      "name": "writing_12",
+      "duration": 1.0,
+      "task_type": "writing",
+      "deadline": "2026-04-10 13:23",
+      "priority": 1.514
+    },
+    {
+      "name": "coding_13",
+      "duration": 1.5,
+      "task_type": "coding",
+      "deadline": "2026-04-06 12:31",
+      "priority": 2.276
+    },
+    {
+      "name": "learning_14",
+      "duration": 0.5,
+      "task_type": "learning",
+      "deadline": "2026-04-07 12:15",
+      "priority": 1.313
+    },
+    {
+      "name": "review_15",
+      "duration": 0.5,
+      "task_type": "review",
+      "deadline": "2026-04-07 18:27",
+      "priority": 1.061
+    },
+    {
+      "name": "review_16",
+      "duration": 0.5,
+      "task_type": "review",
+      "deadline": "2026-04-11 11:58",
+      "priority": 1.059
+    },
+    {
+      "name": "meeting_17",
+      "duration": 3.0,
+      "task_type": "meeting",
+      "deadline": "2026-04-07 12:07",
+      "priority": 2.471
+    },
+    {
+      "name": "coding_18",
+      "duration": 1.5,
+      "task_type": "coding",
+      "deadline": "2026-04-08 10:05",
+      "priority": 1.296
+    },
+    {
+      "name": "review_19",
+      "duration": 0.5,
+      "task_type": "review",
+      "deadline": "2026-04-08 11:56",
+      "priority": 2.222
+    },
+    {
+      "name": "meeting_20",
+      "duration": 2.5,
+      "task_type": "meeting",
+      "deadline": "2026-04-10 10:31",
+      "priority": 1.283
+    }
+  ]
+}
